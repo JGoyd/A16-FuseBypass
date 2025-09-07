@@ -1,5 +1,9 @@
 # **A16-FuseBypass: Debug Logic Enabled on Production Apple Silicon**
 
+**The report highlights a runtime contradiction between hardware fuse states and observed debug behavior on a production device.
+That’s not a configuration bug... it’s a breakdown in the chip’s trust model.**
+
+
 ## Overview
 
 This repository documents a critical hardware-level vulnerability in the Apple A16 Bionic chip used in iPhone 14 Pro Max and related devices. The flaw allows debug logic—meant strictly for development silicon—to be executed on production-fused devices (`dev-fused = 0`) running stock, unmodified iOS with `debug = 0x0`.
