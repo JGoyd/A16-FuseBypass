@@ -48,14 +48,6 @@ No assumptions about hardware trust enforcement on Apple Silicon can be consider
 
 ---
 
-## Contents
-
-* `logs/` – Raw and timestamped logs showing activation of debug routines on production-fused A16 devices
-* `analysis/` – Side-by-side breakdown of expected vs. observed hardware behavior
-* `reproduce/` – Step-by-step guide to validating the issue on a stock iPhone 14 Pro Max
-
----
-
 ## Steps to Validate
 
 This flaw has been confirmed on multiple unmodified devices running official iOS firmware. To independently validate:
