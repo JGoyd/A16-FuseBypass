@@ -1,7 +1,7 @@
 # **A16-FuseBypass: Debug Logic Enabled on Production Apple Silicon**
 
 **The report highlights a runtime contradiction between hardware fuse states and observed debug behavior on a production device.
-That’s not a configuration bug... it’s a breakdown in the chip’s trust model.**
+It is not a configuration bug... it’s a breakdown in the chip’s trust model.**
 
 
 ## Overview
